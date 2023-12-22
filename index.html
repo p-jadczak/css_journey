@@ -14,10 +14,18 @@
     .attribution a { color: hsl(228, 45%, 44%); }
     
     body{
-      background-color: rgb(231, 231, 83);
+      background-color: rgb(233, 216, 65);
       margin: 0;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
+
+    .outer{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin-top: 20rem;
+    }
+
     .container-inner{
       
       padding: 25px;
@@ -34,7 +42,7 @@
       
     }
 
-    #learn{padding: 5px;background-color: rgb(231, 231, 83); width: 100px; text-align: center; border-radius: 5px; font-size: 1.2rem;}
+    #learn{padding: 5px;background-color: rgb(231, 209, 83); width: 100px; text-align: center; border-radius: 5px; font-size: 1.2rem;}
     h1{font-size: 1.5rem; font-weight: 600;}
     p{font-size: 1rem;
       opacity:0.6;
@@ -50,12 +58,7 @@
       top: 9px;
     }
     
-    .outer{
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      margin-top: 25%;
-    }
+    
 
     span{padding: 2px;}
 
@@ -65,9 +68,13 @@
       cursor: pointer;
     }
 
-    @media (max-width 720px){
+    @media (max-width: 375px){
+      .outer{
+        margin-top: 25rem;
+      }
+      
       .container-inner{
-        wid
+        width: 16rem;
       }
     }
   </style>
@@ -87,7 +94,7 @@
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">A.J</a>.
   </div>
 </body>
 </html>
